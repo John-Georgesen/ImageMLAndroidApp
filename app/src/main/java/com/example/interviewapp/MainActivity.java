@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity
             analyzeImage = photo;
         }
     }
-    
+
     private void detectText() {
         // this is a method to detect a text from image.
         // below line is to create variable for firebase

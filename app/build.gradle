@@ -32,7 +32,6 @@ android {
 }
 
 dependencies {
-
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
@@ -43,13 +42,10 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     // dependency for firebase ml kit
-
     implementation 'com.google.firebase:firebase-ml-vision:15.0.0'
     implementation 'com.google.android.material:material:1.6.0-alpha01'
 
-
-// dependency for firebase core.
-
+    // dependency for firebase core.
     implementation 'com.google.firebase:firebase-core:15.0.2'
 }
 
